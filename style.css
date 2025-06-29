@@ -1,0 +1,27 @@
+body {
+    background-color: #121212; /* Хар өнгө */
+    color: #ffffff;            /* Цагаан текст */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;             /* Бүх дэлгэцийг хамарна */
+    margin: 0;
+}
+
+a {
+    color: #00ffff;            /* Цэнхэр-ногоон өнгийн линк */
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #222;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 255, 255, 0.2);
+}
+
+a:hover {
+    background-color: #00ffff;
+    color: #121212;
+    transform: scale(1.05);
+}
